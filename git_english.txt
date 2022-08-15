@@ -1,0 +1,76 @@
+﻿git init - adds a git environment to the folder
+git status - repository status
+git remote add origin https://github.com/recpi2008/Git.git - connect folder to repository
+git remote -v  - shows a list of remote connections
+
+git add Git.TXT - add file
+git add .  - add file recursion
+git rm --cached Git.TXT - if wrong (delete)
+git commit - add a commit (in the i editor text esc :wq)
+git commit -m'text'  - not to open the editor
+git commit -am 'updated Git.RTF' - do everything at once
+
+touch images/.gitkeep - adding empty folders
+touch .gitignore - adding ignore files
+
+git log - view repository history
+git log --oneline  - abbreviated statement
+git reset a155ea6 - rollback to commit
+git reflog - information about all changes
+git revert a155ea6 - cancels the commit action
+
+git branch   - see available branches
+git branch name  - create a new branch
+git checkout dev - switch to branch
+git branch dev_2 master - create a branch from a branch
+git checkout -b dev_3 - creating a branch with switching to it
+
+
+
+ssh-keygen - create a key
+git clone ссылка_ssh name_directory - clone the repository to the specified folder
+git push - push changes to GitHub
+git push -u origin dev - if push to uncreated branch
+git pull - changes from Github to folder
+
+git fetch - updates branches from a repository in a folder
+git merge name_dev - merges changes into the master branch, after that git push
+git branch -d name_dev - delete the branch, after that git push
+git push --delete origin name_dev - deleting branches from Github
+
+
+
+REBASE
+git rebase main - 
+git push --force - confirm
+
+
+
+Версии:
+git tag 1.0.0 - write version
+git tag - look at the versions
+git tag --list - see all versions
+git push --tag - download push versions
+git tag -d 1.0.1 - remove the tag
+git push --delete origin 1.0.1 - remove tag from remote repository
+
+
+
+Creation pull-request:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
